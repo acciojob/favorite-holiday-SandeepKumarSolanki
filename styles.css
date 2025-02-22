@@ -1,1 +1,123 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* General styles for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 u {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 0 15px;
+    font-style: italic;
+}
+
+/* Adding a gentle background gradient */
+body {
+    background: linear-gradient(to right, #d0e9f3, #f8f9fa);
+}
+
+/* Animation for fading in the container */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+ol {
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+ol li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+ol li strong {
+    color: #e74c3c;
+}
+
+ol li em {
+    font-style: italic;
+    color: #2980b9;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+ul li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+ul li strong {
+    color: #e74c3c;
+}
+
+ul li em {
+    font-style: italic;
+    color: #2980b9;
+}
+
